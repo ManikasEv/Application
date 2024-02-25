@@ -4,7 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
+//TODO Create Connection class that handles connection 
+//TODO Create Create a repository that gets all users 
+//TODO Repository class extends connection class to hadle the connection for the repository
 public class JBDCConnection {
 	String url="jdbc:mysql://localhost:3306/officed1";
 	String username = "root";
