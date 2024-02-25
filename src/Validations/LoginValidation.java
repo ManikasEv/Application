@@ -17,7 +17,7 @@ public class LoginValidation {
 		try {
 		//Call Validation interface
 		// Repository repo= new Repository();
-		//example Validation() validation= new ValidationImpl(repo.getAllUsers());
+		//example ValidationUser() validation= new ValidationUserImpl(repo.getAllUsers());
 		//Connection con = getConn();
     		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/officed1","root","MAVERIK27");
 		//Boolean flag=validation.validateUser(username,password);
